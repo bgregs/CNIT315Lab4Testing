@@ -348,8 +348,14 @@ int testAlphaNumericWord()
 int testSubString()
 {
 	//Vars
-
+  int returnValue;
 	//Implement Tests Here
+	returnValue = substring();
+	
+	if (returnValue != 0)
+	{
+	  return 1;
+	}
 
 	return 0;
 }
