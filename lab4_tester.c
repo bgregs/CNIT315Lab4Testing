@@ -364,7 +364,7 @@ int testSubString()
 int testConcat()
 {
 	//Vars
-	int i,e,numWords = 0, strLength, returnValue;
+	int e, strLength, returnValue;
 	int length1, length2, totalLength;
 	for (e=0; e<numArrays; e++)
 	{
@@ -376,24 +376,10 @@ int testConcat()
 		
     length1 = sizeof(string1) / sizeof(string1[0]);
     length2 = sizeof(string2) / sizeof(string2[0]);
-    totalLength = length1 + length2;
-    
-		//Find number of Words
-		for(i=0;string1[i]!='\0';++i) 
-		{ 
-			if(string[i]==' ' && i < strLength -1) 
-			{
-				numWords++;
-			}
-		}
-		if (numWords > 0)
-		{
-			numWords++;
-		}
-		
-		
+    totalLength = length1 + length2;				
 
 		//Use Function to concatinate two strings
+		
 		//returnValue = findConcat(&string1, &string2, length1, length2);
 
 		if (returnValue != 0)
