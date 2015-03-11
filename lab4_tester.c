@@ -394,7 +394,7 @@ int testConcat()
 		
 
 		//Use Function to concatinate two strings
-		//returnValue = findConcat(&string1, &string2);
+		//returnValue = findConcat(&string1, &string2, length1, length2);
 
 		if (returnValue != 0)
 		{
